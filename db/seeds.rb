@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+require 'faker'
+
+FacechatUser.create([
+	{ first_name: "chhing", last_name: "hem", gender: "female", email: "chhing99@gmail.com", username: "chhingchhing", password: "123", re_password: "123"},
+	{ first_name: "sreynak", last_name: "chet", gender: "female", email: "sreynak.chet@gmail.com", username: "sreynak", password: "123", re_password: "123"}
+])
